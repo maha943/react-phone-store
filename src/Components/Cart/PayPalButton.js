@@ -26,7 +26,7 @@ export default class MyApp extends React.Component {
         let currency = 'USD'; // or you can set this value from your props or state
          
         const client = {
-            sandbox:  "AchFTSr8RFHxe8xSQm9hRZIDf73_ry2BLynd9g-t7ilbX3PGOxFXIErz-aKwc8giVrkrdtShg_iCxJjc",
+            sandbox:  process.env.REACT_APP_APP_ID,
             production: 'YOUR-PRODUCTION-APP-ID',
         }
         
