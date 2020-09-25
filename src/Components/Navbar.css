@@ -1,0 +1,46 @@
+.navwrapper{
+    background-color: var(--mainBlue);
+}
+.nav-link{
+    color:var(--mainWhite) !important;
+    font-size:1.3rem;
+    text-transform: capitalize !important;
+}
+
+
+.btnContainer{
+text-transform: capitalize;
+font-size:1.4rem;
+background:transparent;
+border:0.05rem solid var(--lightBlue);
+color: var(--lightBlue);
+border-radius : 0.5rem;
+padding:0.2rem 0.5rem;
+margin:0.2rem 0.5rem 0.2rem 0;
+cursor: pointer;
+transition:all .05 ease-in-out;
+}
+.btnContainer:hover{
+    background-color: var(--lightBlue);
+    color:var(--mainBlue);
+}
+.btnContainer:focus{
+    outline:none;
+}
+.span{
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 18px;
+    text-align:center;
+
+}
+span .icon{ margin-right:5px;
+
+}
+.cartbtn{
+    border-color :var(--mainYello) ;
+    color :var(--mainYello);
+   }
+   .cartbtn:hover{
+    background-color: var(--mainYello);
+   }
